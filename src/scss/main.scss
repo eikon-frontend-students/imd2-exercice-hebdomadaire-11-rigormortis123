@@ -15,6 +15,7 @@ video {
 }
 
 .button {
+  margin: 50px;
   display: flex;
   align-items: center;
   width: fit-content;
@@ -26,10 +27,12 @@ video {
   font-family: "Roboto", sans-serif;
   font-size: 18px;
   font-weight: 600;
+  cursor: pointer;
 }
 
 .number {
   font-weight: 400;
+  font-size: 14px;
   color: black;
 }
 
