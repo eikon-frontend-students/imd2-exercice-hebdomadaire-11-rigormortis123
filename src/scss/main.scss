@@ -37,6 +37,11 @@ video {
 }
 
 .is-active {
+  transition: all 300ms linear;
   background: red;
   color: white;
+
+  .number {
+    color: white;
+  }
 }
