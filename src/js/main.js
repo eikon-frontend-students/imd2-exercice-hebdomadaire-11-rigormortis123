@@ -3,7 +3,7 @@ var number = document.querySelector(".number");
 var currentValue = parseInt(number.value);
 
 var onClick = function () {
-  button.classList.toggle("is-active");
+  button.classList.add("is-active");
   currentValue = currentValue + 1;
   number.value = currentValue;
 };
